@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7562DEA51E12BD12009F4EA9 /* TtroPopMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 7562DEA31E12BD12009F4EA9 /* TtroPopMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7562DEAC1E12BD22009F4EA9 /* PopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562DEAB1E12BD22009F4EA9 /* PopMenuView.swift */; };
+		AF08D1C87B182C82D0262F70 /* Pods_TtroPopMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9DF15D707240C5DE058661 /* Pods_TtroPopMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246D7ED654F148399D4B09D3 /* Pods-TtroPopMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenu/Pods-TtroPopMenu.release.xcconfig"; sourceTree = "<group>"; };
 		7562DEA01E12BD12009F4EA9 /* TtroPopMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TtroPopMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7562DEA31E12BD12009F4EA9 /* TtroPopMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TtroPopMenu.h; sourceTree = "<group>"; };
 		7562DEA41E12BD12009F4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7562DEAB1E12BD22009F4EA9 /* PopMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopMenuView.swift; sourceTree = "<group>"; };
+		950BBE1EA9609CE770549C78 /* Pods-TtroPopMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenu/Pods-TtroPopMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		FF9DF15D707240C5DE058661 /* Pods_TtroPopMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroPopMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +27,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF08D1C87B182C82D0262F70 /* Pods_TtroPopMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D7B1FE924F55FABA9042567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DF15D707240C5DE058661 /* Pods_TtroPopMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7562DE961E12BD12009F4EA9 = {
 			isa = PBXGroup;
 			children = (
 				7562DEA21E12BD12009F4EA9 /* TtroPopMenu */,
 				7562DEA11E12BD12009F4EA9 /* Products */,
+				C53C0C76254F78003C995D2B /* Pods */,
+				4D7B1FE924F55FABA9042567 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +63,20 @@
 		7562DEA21E12BD12009F4EA9 /* TtroPopMenu */ = {
 			isa = PBXGroup;
 			children = (
+				7562DEAB1E12BD22009F4EA9 /* PopMenuView.swift */,
 				7562DEA31E12BD12009F4EA9 /* TtroPopMenu.h */,
 				7562DEA41E12BD12009F4EA9 /* Info.plist */,
 			);
 			path = TtroPopMenu;
+			sourceTree = "<group>";
+		};
+		C53C0C76254F78003C995D2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				950BBE1EA9609CE770549C78 /* Pods-TtroPopMenu.debug.xcconfig */,
+				246D7ED654F148399D4B09D3 /* Pods-TtroPopMenu.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,10 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7562DEA81E12BD12009F4EA9 /* Build configuration list for PBXNativeTarget "TtroPopMenu" */;
 			buildPhases = (
+				7AF90E3422C735E0EC8F5C8B /* [CP] Check Pods Manifest.lock */,
 				7562DE9B1E12BD12009F4EA9 /* Sources */,
 				7562DE9C1E12BD12009F4EA9 /* Frameworks */,
 				7562DE9D1E12BD12009F4EA9 /* Headers */,
 				7562DE9E1E12BD12009F4EA9 /* Resources */,
+				A77537C65976D745F4216F45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +125,7 @@
 					7562DE9F1E12BD12009F4EA9 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = F53V3ZJV96;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,11 +157,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7AF90E3422C735E0EC8F5C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A77537C65976D745F4216F45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopMenu/Pods-TtroPopMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7562DE9B1E12BD12009F4EA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7562DEAC1E12BD22009F4EA9 /* PopMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +303,9 @@
 		};
 		7562DEA91E12BD12009F4EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950BBE1EA9609CE770549C78 /* Pods-TtroPopMenu.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = F53V3ZJV96;
@@ -252,13 +318,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7562DEAA1E12BD12009F4EA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246D7ED654F148399D4B09D3 /* Pods-TtroPopMenu.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = F53V3ZJV96;

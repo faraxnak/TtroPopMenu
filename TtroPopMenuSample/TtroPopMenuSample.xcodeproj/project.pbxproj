@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B71E52EDB8C0A632FA60E1B /* Pods_TtroPopMenuSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3EFCA13E10C0DB73A179CE /* Pods_TtroPopMenuSample.framework */; };
+		7562DEBA1E12C063009F4EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562DEB91E12C063009F4EA9 /* AppDelegate.swift */; };
+		7562DEBC1E12C063009F4EA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562DEBB1E12C063009F4EA9 /* ViewController.swift */; };
+		7562DEBF1E12C063009F4EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7562DEBD1E12C063009F4EA9 /* Main.storyboard */; };
+		7562DEC11E12C063009F4EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7562DEC01E12C063009F4EA9 /* Assets.xcassets */; };
+		7562DEC41E12C063009F4EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7562DEC21E12C063009F4EA9 /* LaunchScreen.storyboard */; };
+		7562DECF1E12C063009F4EA9 /* TtroPopMenuSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562DECE1E12C063009F4EA9 /* TtroPopMenuSampleTests.swift */; };
+		7562DEDA1E12C063009F4EA9 /* TtroPopMenuSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7562DED91E12C063009F4EA9 /* TtroPopMenuSampleUITests.swift */; };
+		768062DD580FF0847191361E /* Pods_TtroPopMenuSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB6FE09C31272DD21DD2996 /* Pods_TtroPopMenuSampleUITests.framework */; };
+		7F8C0A3F89C2C0CBED3D2006 /* Pods_TtroPopMenuSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A392D4B84FFE623F2D3471D /* Pods_TtroPopMenuSampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7562DECB1E12C063009F4EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7562DEAE1E12C063009F4EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7562DEB51E12C063009F4EA9;
+			remoteInfo = TtroPopMenuSample;
+		};
+		7562DED61E12C063009F4EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7562DEAE1E12C063009F4EA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7562DEB51E12C063009F4EA9;
+			remoteInfo = TtroPopMenuSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF988452295B7FADE5733BA /* Pods-TtroPopMenuSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenuSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenuSampleUITests/Pods-TtroPopMenuSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A392D4B84FFE623F2D3471D /* Pods_TtroPopMenuSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroPopMenuSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EB6FE09C31272DD21DD2996 /* Pods_TtroPopMenuSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroPopMenuSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8255CAC23180E1F9B76993 /* Pods-TtroPopMenuSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenuSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenuSampleTests/Pods-TtroPopMenuSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		604AD886F123F9079E4431A0 /* Pods-TtroPopMenuSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenuSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenuSample/Pods-TtroPopMenuSample.debug.xcconfig"; sourceTree = "<group>"; };
+		7562DEB61E12C063009F4EA9 /* TtroPopMenuSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TtroPopMenuSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7562DEB91E12C063009F4EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7562DEBB1E12C063009F4EA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7562DEBE1E12C063009F4EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7562DEC01E12C063009F4EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7562DEC31E12C063009F4EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7562DEC51E12C063009F4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7562DECA1E12C063009F4EA9 /* TtroPopMenuSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtroPopMenuSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7562DECE1E12C063009F4EA9 /* TtroPopMenuSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtroPopMenuSampleTests.swift; sourceTree = "<group>"; };
+		7562DED01E12C063009F4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7562DED51E12C063009F4EA9 /* TtroPopMenuSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TtroPopMenuSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7562DED91E12C063009F4EA9 /* TtroPopMenuSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtroPopMenuSampleUITests.swift; sourceTree = "<group>"; };
+		7562DEDB1E12C063009F4EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C145C766F4E9F5936A8A554 /* Pods-TtroPopMenuSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenuSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenuSampleTests/Pods-TtroPopMenuSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B54C10B16A6EE9D9A4EBDB0A /* Pods-TtroPopMenuSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenuSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenuSampleUITests/Pods-TtroPopMenuSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E37D386ADD51223FF63E980E /* Pods-TtroPopMenuSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TtroPopMenuSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TtroPopMenuSample/Pods-TtroPopMenuSample.release.xcconfig"; sourceTree = "<group>"; };
+		ED3EFCA13E10C0DB73A179CE /* Pods_TtroPopMenuSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TtroPopMenuSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7562DEB31E12C063009F4EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B71E52EDB8C0A632FA60E1B /* Pods_TtroPopMenuSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7562DEC71E12C063009F4EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8C0A3F89C2C0CBED3D2006 /* Pods_TtroPopMenuSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7562DED21E12C063009F4EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768062DD580FF0847191361E /* Pods_TtroPopMenuSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3006B32EFE7976C1F09F763F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED3EFCA13E10C0DB73A179CE /* Pods_TtroPopMenuSample.framework */,
+				1A392D4B84FFE623F2D3471D /* Pods_TtroPopMenuSampleTests.framework */,
+				2EB6FE09C31272DD21DD2996 /* Pods_TtroPopMenuSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7562DEAD1E12C063009F4EA9 = {
+			isa = PBXGroup;
+			children = (
+				7562DEB81E12C063009F4EA9 /* TtroPopMenuSample */,
+				7562DECD1E12C063009F4EA9 /* TtroPopMenuSampleTests */,
+				7562DED81E12C063009F4EA9 /* TtroPopMenuSampleUITests */,
+				7562DEB71E12C063009F4EA9 /* Products */,
+				BB4505B28E42515894BC2878 /* Pods */,
+				3006B32EFE7976C1F09F763F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7562DEB71E12C063009F4EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7562DEB61E12C063009F4EA9 /* TtroPopMenuSample.app */,
+				7562DECA1E12C063009F4EA9 /* TtroPopMenuSampleTests.xctest */,
+				7562DED51E12C063009F4EA9 /* TtroPopMenuSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7562DEB81E12C063009F4EA9 /* TtroPopMenuSample */ = {
+			isa = PBXGroup;
+			children = (
+				7562DEB91E12C063009F4EA9 /* AppDelegate.swift */,
+				7562DEBB1E12C063009F4EA9 /* ViewController.swift */,
+				7562DEBD1E12C063009F4EA9 /* Main.storyboard */,
+				7562DEC01E12C063009F4EA9 /* Assets.xcassets */,
+				7562DEC21E12C063009F4EA9 /* LaunchScreen.storyboard */,
+				7562DEC51E12C063009F4EA9 /* Info.plist */,
+			);
+			path = TtroPopMenuSample;
+			sourceTree = "<group>";
+		};
+		7562DECD1E12C063009F4EA9 /* TtroPopMenuSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7562DECE1E12C063009F4EA9 /* TtroPopMenuSampleTests.swift */,
+				7562DED01E12C063009F4EA9 /* Info.plist */,
+			);
+			path = TtroPopMenuSampleTests;
+			sourceTree = "<group>";
+		};
+		7562DED81E12C063009F4EA9 /* TtroPopMenuSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7562DED91E12C063009F4EA9 /* TtroPopMenuSampleUITests.swift */,
+				7562DEDB1E12C063009F4EA9 /* Info.plist */,
+			);
+			path = TtroPopMenuSampleUITests;
+			sourceTree = "<group>";
+		};
+		BB4505B28E42515894BC2878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				604AD886F123F9079E4431A0 /* Pods-TtroPopMenuSample.debug.xcconfig */,
+				E37D386ADD51223FF63E980E /* Pods-TtroPopMenuSample.release.xcconfig */,
+				5D8255CAC23180E1F9B76993 /* Pods-TtroPopMenuSampleTests.debug.xcconfig */,
+				7C145C766F4E9F5936A8A554 /* Pods-TtroPopMenuSampleTests.release.xcconfig */,
+				0CF988452295B7FADE5733BA /* Pods-TtroPopMenuSampleUITests.debug.xcconfig */,
+				B54C10B16A6EE9D9A4EBDB0A /* Pods-TtroPopMenuSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7562DEB51E12C063009F4EA9 /* TtroPopMenuSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7562DEDE1E12C063009F4EA9 /* Build configuration list for PBXNativeTarget "TtroPopMenuSample" */;
+			buildPhases = (
+				E17A0BC42840CCF71C00B68F /* [CP] Check Pods Manifest.lock */,
+				7562DEB21E12C063009F4EA9 /* Sources */,
+				7562DEB31E12C063009F4EA9 /* Frameworks */,
+				7562DEB41E12C063009F4EA9 /* Resources */,
+				99FAEFF28B086E760827BE4E /* [CP] Embed Pods Frameworks */,
+				80E844970B33F84DB0A92148 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TtroPopMenuSample;
+			productName = TtroPopMenuSample;
+			productReference = 7562DEB61E12C063009F4EA9 /* TtroPopMenuSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7562DEC91E12C063009F4EA9 /* TtroPopMenuSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7562DEE11E12C063009F4EA9 /* Build configuration list for PBXNativeTarget "TtroPopMenuSampleTests" */;
+			buildPhases = (
+				295656B62FEF20C98111AF64 /* [CP] Check Pods Manifest.lock */,
+				7562DEC61E12C063009F4EA9 /* Sources */,
+				7562DEC71E12C063009F4EA9 /* Frameworks */,
+				7562DEC81E12C063009F4EA9 /* Resources */,
+				8C1D3A0212971F70D43101E9 /* [CP] Embed Pods Frameworks */,
+				8C84A86BB3B96C59FD46D485 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7562DECC1E12C063009F4EA9 /* PBXTargetDependency */,
+			);
+			name = TtroPopMenuSampleTests;
+			productName = TtroPopMenuSampleTests;
+			productReference = 7562DECA1E12C063009F4EA9 /* TtroPopMenuSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7562DED41E12C063009F4EA9 /* TtroPopMenuSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7562DEE41E12C063009F4EA9 /* Build configuration list for PBXNativeTarget "TtroPopMenuSampleUITests" */;
+			buildPhases = (
+				EEAD93A97AA0E8C0F8FEFD8B /* [CP] Check Pods Manifest.lock */,
+				7562DED11E12C063009F4EA9 /* Sources */,
+				7562DED21E12C063009F4EA9 /* Frameworks */,
+				7562DED31E12C063009F4EA9 /* Resources */,
+				5532EF506289FBC32EDE6777 /* [CP] Embed Pods Frameworks */,
+				5928EBCE559CDAB0A21A1F31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7562DED71E12C063009F4EA9 /* PBXTargetDependency */,
+			);
+			name = TtroPopMenuSampleUITests;
+			productName = TtroPopMenuSampleUITests;
+			productReference = 7562DED51E12C063009F4EA9 /* TtroPopMenuSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7562DEAE1E12C063009F4EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ParsPay;
+				TargetAttributes = {
+					7562DEB51E12C063009F4EA9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = F53V3ZJV96;
+						ProvisioningStyle = Automatic;
+					};
+					7562DEC91E12C063009F4EA9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = F53V3ZJV96;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7562DEB51E12C063009F4EA9;
+					};
+					7562DED41E12C063009F4EA9 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = F53V3ZJV96;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7562DEB51E12C063009F4EA9;
+					};
+				};
+			};
+			buildConfigurationList = 7562DEB11E12C063009F4EA9 /* Build configuration list for PBXProject "TtroPopMenuSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7562DEAD1E12C063009F4EA9;
+			productRefGroup = 7562DEB71E12C063009F4EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7562DEB51E12C063009F4EA9 /* TtroPopMenuSample */,
+				7562DEC91E12C063009F4EA9 /* TtroPopMenuSampleTests */,
+				7562DED41E12C063009F4EA9 /* TtroPopMenuSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7562DEB41E12C063009F4EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7562DEC41E12C063009F4EA9 /* LaunchScreen.storyboard in Resources */,
+				7562DEC11E12C063009F4EA9 /* Assets.xcassets in Resources */,
+				7562DEBF1E12C063009F4EA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7562DEC81E12C063009F4EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7562DED31E12C063009F4EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		295656B62FEF20C98111AF64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5532EF506289FBC32EDE6777 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopMenuSampleUITests/Pods-TtroPopMenuSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5928EBCE559CDAB0A21A1F31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopMenuSampleUITests/Pods-TtroPopMenuSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E844970B33F84DB0A92148 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopMenuSample/Pods-TtroPopMenuSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1D3A0212971F70D43101E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopMenuSampleTests/Pods-TtroPopMenuSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C84A86BB3B96C59FD46D485 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopMenuSampleTests/Pods-TtroPopMenuSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99FAEFF28B086E760827BE4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TtroPopMenuSample/Pods-TtroPopMenuSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17A0BC42840CCF71C00B68F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEAD93A97AA0E8C0F8FEFD8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7562DEB21E12C063009F4EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7562DEBC1E12C063009F4EA9 /* ViewController.swift in Sources */,
+				7562DEBA1E12C063009F4EA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7562DEC61E12C063009F4EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7562DECF1E12C063009F4EA9 /* TtroPopMenuSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7562DED11E12C063009F4EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7562DEDA1E12C063009F4EA9 /* TtroPopMenuSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7562DECC1E12C063009F4EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7562DEB51E12C063009F4EA9 /* TtroPopMenuSample */;
+			targetProxy = 7562DECB1E12C063009F4EA9 /* PBXContainerItemProxy */;
+		};
+		7562DED71E12C063009F4EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7562DEB51E12C063009F4EA9 /* TtroPopMenuSample */;
+			targetProxy = 7562DED61E12C063009F4EA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7562DEBD1E12C063009F4EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7562DEBE1E12C063009F4EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7562DEC21E12C063009F4EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7562DEC31E12C063009F4EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7562DEDC1E12C063009F4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7562DEDD1E12C063009F4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7562DEDF1E12C063009F4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604AD886F123F9079E4431A0 /* Pods-TtroPopMenuSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopMenuSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopMenuSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7562DEE01E12C063009F4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37D386ADD51223FF63E980E /* Pods-TtroPopMenuSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopMenuSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopMenuSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7562DEE21E12C063009F4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8255CAC23180E1F9B76993 /* Pods-TtroPopMenuSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopMenuSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopMenuSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TtroPopMenuSample.app/TtroPopMenuSample";
+			};
+			name = Debug;
+		};
+		7562DEE31E12C063009F4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C145C766F4E9F5936A8A554 /* Pods-TtroPopMenuSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopMenuSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopMenuSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TtroPopMenuSample.app/TtroPopMenuSample";
+			};
+			name = Release;
+		};
+		7562DEE51E12C063009F4EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF988452295B7FADE5733BA /* Pods-TtroPopMenuSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopMenuSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopMenuSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TtroPopMenuSample;
+			};
+			name = Debug;
+		};
+		7562DEE61E12C063009F4EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54C10B16A6EE9D9A4EBDB0A /* Pods-TtroPopMenuSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F53V3ZJV96;
+				INFOPLIST_FILE = TtroPopMenuSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParsPay.TtroPopMenuSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TtroPopMenuSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7562DEB11E12C063009F4EA9 /* Build configuration list for PBXProject "TtroPopMenuSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7562DEDC1E12C063009F4EA9 /* Debug */,
+				7562DEDD1E12C063009F4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7562DEDE1E12C063009F4EA9 /* Build configuration list for PBXNativeTarget "TtroPopMenuSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7562DEDF1E12C063009F4EA9 /* Debug */,
+				7562DEE01E12C063009F4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7562DEE11E12C063009F4EA9 /* Build configuration list for PBXNativeTarget "TtroPopMenuSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7562DEE21E12C063009F4EA9 /* Debug */,
+				7562DEE31E12C063009F4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7562DEE41E12C063009F4EA9 /* Build configuration list for PBXNativeTarget "TtroPopMenuSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7562DEE51E12C063009F4EA9 /* Debug */,
+				7562DEE61E12C063009F4EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7562DEAE1E12C063009F4EA9 /* Project object */;
+}

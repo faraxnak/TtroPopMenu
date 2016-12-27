@@ -1,0 +1,6 @@
+framework module Pods_TtroPopMenu {
+  umbrella header "Pods-TtroPopMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

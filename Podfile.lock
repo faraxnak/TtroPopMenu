@@ -1,0 +1,31 @@
+PODS:
+  - EasyPeasy (1.4)
+  - PayWandBasicElements (0.0.4):
+    - EasyPeasy (~> 1.4)
+    - SwiftyButton (~> 0.5.0)
+    - UIColor_Hex_Swift
+  - PureLayout (3.0.2)
+  - SwiftyButton (0.5.0):
+    - SwiftyButton/CustomContent (= 0.5.0)
+  - SwiftyButton/CustomContent (0.5.0):
+    - PureLayout (~> 3.0)
+  - UIColor_Hex_Swift (3.0.2)
+
+DEPENDENCIES:
+  - EasyPeasy
+  - PayWandBasicElements (from `../PayWandBasicElements`)
+
+EXTERNAL SOURCES:
+  PayWandBasicElements:
+    :path: ../PayWandBasicElements
+
+SPEC CHECKSUMS:
+  EasyPeasy: c2e49ceb822edc0a5fffefd66240fff10129047d
+  PayWandBasicElements: b2d2aa1cce40e4eca4c2e488e8f936666dd108f2
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SwiftyButton: 7f1c7774a0aa721cbb6ea287742198ea0ee50c05
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
+
+PODFILE CHECKSUM: 6480231ed247abad7910978eca1271dfb64905bd
+
+COCOAPODS: 1.2.0.beta.1
