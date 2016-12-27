@@ -1,0 +1,6 @@
+framework module TtroPopMenu {
+  umbrella header "TtroPopMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A6B14E5F441F2AE2731D93D553ACB039'
-               BlueprintName = 'Pods-TtroPopMenuSample'
+               BlueprintIdentifier = '8641FFB484042EB49C500001508CBBCF'
+               BlueprintName = 'TtroPopMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-TtroPopMenuSample.framework'>
+               BuildableName = 'TtroPopMenu.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

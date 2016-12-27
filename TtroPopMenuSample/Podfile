@@ -8,7 +8,7 @@ target 'TtroPopMenuSample' do
   # Pods for TtroPopMenuSample
 
   pod 'PayWandBasicElements', :path => '../../PayWandBasicElements'
-  # pod 'TtroPopMenu', :path => '../../TtroPopMenu'
+  pod 'TtroPopMenu', :path => '../../TtroPopMenu'
 
   target 'TtroPopMenuSampleTests' do
     inherit! :search_paths
